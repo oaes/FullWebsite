@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Full_Website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- <div class="container_full">
+        <div class="container">
+
+        </div>
+    </div> -->
+
+  <div class="container_full">
+        <div class="container">
+            <div class="menu" id="navbar">
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Services</a>
+                        <ul>
+                            <li><a href="#">Clean</a></li>
+                            <li><a href="#">Sparkle</a></li>
+                            <li><a href="#">Crystal</a></li>
+                        </ul></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+             </div>
+            </div>
+    </div>
+
+ <div class="fix container_full">
+        <div class="fix container">
+            <div class="under_header">
+            <div class="menu2 floatleft">
+                    <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+
+            </div>  
+           <div class="undermnu_srch floatright">
+               <input type="search" name="s" id="s">
+               <input type="submit" id="searchsubmit" value="search">
+           </div>
+            </div>
+
+        </div>
+    </div>
+     <div class="fix container_full">
+        <div class="fix container">
+            <div class="content_wrapper">
+                <div class="fix left_content floatleft">
+                    <h2>Php</h2>
+                    <ul>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                    </ul>
+                    <h2>Sql</h2>
+                    <ul>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                    </ul>
+                    <h2>Server </h2>
+                    <ul>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                    </ul>
+                </div>
+                <div class="fix middle_content floatleft">
+                    <h2>Middle section</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum in vero natus incidunt modi debitis soluta ducimus aliquid, quo beatae temporibus rem est, repudiandae nam nobis ipsam laboriosam odio omnis eveniet! Quos, quod soluta eaque provident animi inventore explicabo odit asperiores atque laboriosam sunt nesciunt, qui voluptates vero! Accusantium iste aliquam enim et explicabo corrupti, aperiam unde reiciendis deleniti velit sit placeat, pariatur amet officiis provident minus? Recusandae, exercitationem perspiciatis tempore sapiente minus omnis, vel in, debitis sunt obcaecati facilis incidunt. Ipsa, facilis. Fugiat molestiae, accusamus ducimus voluptatem est velit qui debitis soluta aliquam ratione! Eaque maiores qui asperiores!</p>
+                   <h2>Section two</h2> 
+                   <p> rerum accusamus dolore, fuga obcaecati earum atque, quisquam et debitis quod pariatur repellat eaque eum? Dolorem est hic illo voluptate nisi cupiditate distinctio. Possimus, dignissimos! Possimus accusamus quo aliquam velit sit? Deleniti illo ducimus, quas vitae totam libero esse voluptatibus fuga similique impedit mollitia, aspernatur qui architecto eius vero accusamus adipisci vel veniam eum iusto veritatis atque. Quas expedita beatae eaque distinctio ipsam delectus, dolore ex inventore placeat qui voluptatem enim quis ducimus vitae recusandae doloribus aliquid, accusamus maxime, praesentium debitis quod? Autem, voluptate! Autem suscipit eveniet, quidem obcaecati, incidunt delectus mollitia non voluptatem eius temporibus molestiae perspiciatis accusamus rerum iste tempore eaque! Suscipit placeat voluptas modi eaque laudantium? Unde nam error itaque distinctio, velit, consequuntur, cupiditate vero quam numquam placeat fugit minima vitae! Architecto, accusamus optio eveniet aliquam laboriosam, ipsa inventore amet adipisci corrupti impedit, et enim deserunt recusandae ipsum. Obcaecati, impedit explicabo tenetur accusamus quibusdam quo dolores iure consectetur perferendis tempore officiis expedita esse? Optio debitis laudantium consequuntur perferendis iure aperiam a, rem reiciendis fugiat ipsum velit eum?</p>
+                </div>
+            
+                <div class="fix right_content floatleft">
+                    <h2>HTML</h2>
+                    <ul>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                    </ul>
+                    <h2>CSS</h2>
+                    <ul>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                    </ul>
+                    <h2>JavaScript</h2>
+                    <ul>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                        <li><a href="#">topic</a></li>
+                    </ul>
+                    <h2>Contact us</h2>
+                    <p>Name</p>
+                    <input type="text">
+                    <p>Email</p>
+                    <input type="text"><br>
+                    <input type="submit" value="submit">
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+    <!-- call latest jQuery and all other script -->
+    <!--calling favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href=" " type="image/x-icon">
+
+    
+</body>
+</html

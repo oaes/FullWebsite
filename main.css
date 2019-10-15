@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-transition:   all  0.3  ease       ;
+    transition:   all  0.3  ease;       ;
+    -moz-transition:   all  0.3  ease       ;
+    -ms-transition:   all  0.3  ease       ;
+    -o-transition:   all  0.3  ease       ;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:inline blue;
+}
+a:focus{
+    background: orange;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 30px;
+}
+p{
+    line-height: 150%;
+    
+}
+.container_full{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+}
+.content_wrapper h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 30px;
+    background: #f4f4f4;
+}
+.fix{
+    overflow: hidden;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float:right;
+}
+/* add more in below */
+
+.menu{
+    background: #000;
+    min-height:50px;
+    margin-top:0px ;
+}
+.menu ul{
+   
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    position: relative;
+    background: rgb(17, 17, 17);
+    width: 100px;
+}
+.menu ul li:hover{
+    border-bottom: 2px solid gray;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 11px 15px;
+    display: block ;
+    color: whitesmoke;
+    transition: all 0.5s ease;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.menu ul li a:hover{
+    color: bisque;
+}
+
+.menu ul li ul{
+    position: absolute;
+    left: -99999px;
+    top: 50px;
+}
+.menu ul li:hover ul{
+    left: 0px;
+}
+/* under_menu style start */
+
+.under_header{
+    background-image: url('../img/001.jpg') ;
+    background-repeat: no-repeat;
+        /* background-size: cover; */
+    height: 425px;
+    width: 960px;
+   
+}
+.menu2{
+    background: #000;
+    height: 47px;
+    margin-top:378px;
+}
+.menu2 ul{
+   
+}
+.menu2 ul li{
+    list-style: none;
+    float: left;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    padding: 11px 15px;
+    display: block ;
+    color: whitesmoke;
+    transition: all 0.5s ease;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.menu2 ul li a:hover{
+    color: bisque;
+}
+.content_wrapper{
+    margin-bottom:10px;
+ 
+}
+.left_content{
+    width: 200px;
+    background: #f4f4f4;
+    
+}
+.left_content li , .right_content li{
+    padding: 5px 70px;
+}
+.left_content li a:hover, .right_content li a:hover{
+    background: #000;
+    color:whitesmoke;
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+}
+.left_content h2 , .right_content h2{
+    font-size: 25px;
+    padding: 5px;
+    background:rgb(202, 207, 207);
+    width: 190px;
+    padding-left: 30px;
+    margin-left: 0px;
+}
+.middle_content{
+    width: 560px;
+    background: rgb(216, 241, 255);
+}
+.middle_content p{
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.right_content{
+    width:200px;
+    background: #f4f4f4;
+}
+.right_content input[type='submit']{
+    width: 75px;
+    height: 30px;
+    background: rgb(150, 155, 155);
+    margin-top: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 960px;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+ /* footer are not given yet */
